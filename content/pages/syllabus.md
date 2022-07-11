@@ -36,36 +36,40 @@ Here are some of the topics covered:
 
 ## Calendar
 
+{{< tableopen >}}{{< theadopen >}}{{< tropen >}}{{< thopen >}}
 Lecture # and Topics
-
+{{< thclose >}}{{< thopen >}}
 Key Dates
-
-Lecture 1: 
-
+{{< thclose >}}{{< trclose >}}{{< theadclose >}}{{< tbodyopen >}}{{< tropen >}}{{< tdopen >}}
+Lecture 1
+{{< tdclose >}}{{< tdopen >}}
  
-
-Lecture 2: 
-
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 2
+{{< tdclose >}}{{< tdopen >}}
  
-
-Lecture 3: 
-
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 3
+{{< tdclose >}}{{< tdopen >}}
  
-
-Lecture 4: 
-
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 4
+{{< tdclose >}}{{< tdopen >}}
  
-
-Lecture 5: 
-
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 5
+{{< tdclose >}}{{< tdopen >}}
  
-
-Lecture 6: 
-
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 6
+{{< tdclose >}}{{< tdopen >}}
  
-
-Lecture 7: 
-
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 7
+{{< tdclose >}}{{< tdopen >}}
  
-
-Lecture 8:
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 8
+{{< tdclose >}}{{< tdopen >}}
+ 
+{{< tdclose >}}{{< trclose >}}{{< tbodyclose >}}{{< tableclose >}}
