@@ -8,13 +8,11 @@ uid: 3edca454-764e-40e4-a81b-0504c739b7f5
 ---
 ## Course Meeting Times
 
-Lectures: 2 sessions / week, 1.5 hour / session
+Lectures: 3 sessions / week, 2 hours / session
 
 ## Prerequisites
 
-[*18.100A Real Analysis*](https://ocw.mit.edu/courses/18-100a-introduction-to-analysis-fall-2012/)
-
-or *18.100P Real Analysis*
+Linear Algebra such as [18.06](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) and multivariate calculus such as [18.02](https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/)
 
 ## Course Description
 
@@ -62,10 +60,10 @@ Problem Set 2 due
 
 Lecture 6: Where We Go from Here
 
-Problem Set 4 out             
+Problem Set 4 out              
 Problem Set 3 due
 
  
 
-Problem Set 4 due     
+Problem Set 4 due      
 (one week after Lecture 6)
