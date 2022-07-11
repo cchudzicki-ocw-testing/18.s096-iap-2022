@@ -41,35 +41,36 @@ Lecture # and Topics
 {{< thclose >}}{{< thopen >}}
 Key Dates
 {{< thclose >}}{{< trclose >}}{{< theadclose >}}{{< tbodyopen >}}{{< tropen >}}{{< tdopen >}}
-Lecture 1
+Lecture 1: 
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 2
+Lecture 2: 
+{{< tdclose >}}{{< tdopen >}}
+Problem Set 1 out
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 3: 
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 3
+Lecture 4: 
+{{< tdclose >}}{{< tdopen >}}
+Problem Set 1 due  
+Problem Set 2 out
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 5: 
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 4
+Lecture 6: 
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 5
+Lecture 7: 
 {{< tdclose >}}{{< tdopen >}}
- 
+Problem Set 2 due
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 6
-{{< tdclose >}}{{< tdopen >}}
- 
-{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 7
-{{< tdclose >}}{{< tdopen >}}
- 
-{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 8
+Lecture 8: 
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tbodyclose >}}{{< tableclose >}}
