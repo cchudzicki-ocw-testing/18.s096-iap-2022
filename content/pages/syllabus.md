@@ -1,7 +1,7 @@
 ---
 content_type: page
 description: This page includes course meeting times, prerequisites, course description,
-  grading policy, and calendar.
+  topics, and calendar.
 draft: false
 title: Syllabus
 uid: 3edca454-764e-40e4-a81b-0504c739b7f5
@@ -16,54 +16,22 @@ Linear Algebra such as [*18.06 Linear Algebra*](https://old.ocw.mit.edu/courses/
 
 ## Course Description
 
-This course 
+We all know that calculus courses such as [*18.01 Single Variable Calculus*](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/) and [*18.02 Multivariable Calculus*](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) are univariate and vector calculus, respectively. Modern applications such as machine learning require the next big step, matrix calculus.
 
-## Textbooks
+This class covers a coherent approach to matrix calculus showing techniques that allow you to think of a matrix holistically (not just as an array of scalars), compute derivatives of important matrix factorizations, and really understand forward and reverse modes of differentiation. We will discuss adjoint methods, custom Jacobian matrix vector products, and how modern automatic differentiation is more computer science than mathematics in that it is neither symbolic nor finite differences. 
 
-There is no official textbook. Lecture notes will be provided. You may find the following textbooks useful:
+## Topics
 
-Lebl, Jiri. *Basic Analysis I: Introduction to Real Analysis, Volume 1*. CreateSpace Independent Publishing Platform, 2018. ISBN: 9781718862401. This book is available as [a free PDF download](https://www.jirka.org/ra/). You can purchase a paper copy by following a link at the same site.
+Here are some of the topics covered:
 
-Thomson, Brian S., Judith B. Bruckner, and Andrew M. Bruckner. *Elementary Real Analysis*. CreateSpace Independent Publishing Platform, 2008. ISBN: 9781434841612. This book is available as [a free PDF download (PDF - 5.96 MB)](http://classicalrealanalysis.info/documents/TBB-AllChapters-Landscape.pdf). 
-
-Rudin, Walter. *Principles of Mathematical Analysis*. McGraw Hill, 1976. ISBN: 9780070542358.
-
-## Grading
-
-This class will be Pass/No Record with grading based on assignments and participation. There will be four problem sets, and there will not be any exams.
+- Derivatives as linear operators and linear approximation on arbitrary vector spaces: beyond gradients and Jacobians.
+- Derivatives of functions with matrix inputs and/or outputs (e.g. matrix inverses and determinants). Kronecker products and matrix "vectorization".
+- Derivatives of matrix factorizations (e.g. eigenvalues/SVD) and derivatives with constraints (e.g. orthogonal matrices).
+- Multidimensional chain rules, and the signifance of right-to-left ("forward") vs. left-to-right ("reverse") composition. Chain rules on computational graphs (e.g. neural networks).
+- Forward- and reverse-mode manual and automatic multivariate differentiation.
+- Adjoint methods (vJp/pullback rules) for derivatives of solutions of linear, nonlinear, and differential equations.
+- Application to nonlinear root-finding and optimization. Multidimensional Newton and steepest–descent methods.
+- Applications in engineering/scientific optimization and machine learning.
+- Second derivatives, Hessian matrices, quadratic approximations, and quasi-Newton methods.
 
 ## Calendar
-
-Lecture # and Topics
-
-Key Dates
-
-Lecture 1: Motivation, Intuition, and Examples 
-
-Problem Set 1 out
-
-Lecture 2: General Theory
-
-Problem Set 2 out
-
-Lecture 3: Compact Sets in Rⁿ 
-
-Problem Set 1 due
-
-Lecture 4: Compact Metric Spaces 
-
-Problem Set 3 out
-
-Lecture 5: The Fixed Point Theorem 
-
-Problem Set 2 due
-
-Lecture 6: Where We Go from Here
-
-Problem Set 4 out               
-Problem Set 3 due
-
- 
-
-Problem Set 4 due       
-(one week after Lecture 6)
