@@ -36,6 +36,20 @@ Here are some of the topics covered:
 
 ## Calendar
 
+{{< tableopen >}}{{< theadopen >}}{{< tropen >}}{{< thopen >}}
+Lecture # and Topics
+{{< thclose >}}{{< thopen >}}
+Key Dates
+{{< thclose >}}{{< trclose >}}{{< theadclose >}}{{< tbodyopen >}}{{< tropen >}}{{< tdopen >}}
+Lecture 1: 
+{{< tdclose >}}{{< tdopen >}}
+ 
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
+Lecture 2: 
+{{< tdclose >}}{{< tdopen >}}
+ 
+{{< tdclose >}}{{< trclose >}}{{< tbodyclose >}}{{< tableclose >}}
+
 Lecture # and Topics
 
 Key Dates
