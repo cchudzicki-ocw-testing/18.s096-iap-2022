@@ -12,11 +12,11 @@ Lectures: 3 sessions / week, 2 hours / session
 
 ## Prerequisites
 
-Linear Algebra such as [18.06](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) and multivariate calculus such as [18.02](https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/)
+Linear Algebra such as [*18.06 Linear Algebra*](https://old.ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) and multivariate calculus such as [*18.02 Multivariable Calculus*](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/)
 
 ## Course Description
 
-This course provides a basic introduction to metric spaces. It covers metrics, open and closed sets, continuous functions (in the topological sense), function spaces, completeness, and compactness.
+This course 
 
 ## Textbooks
 
@@ -60,10 +60,10 @@ Problem Set 2 due
 
 Lecture 6: Where We Go from Here
 
-Problem Set 4 out              
+Problem Set 4 out               
 Problem Set 3 due
 
  
 
-Problem Set 4 due      
+Problem Set 4 due       
 (one week after Lecture 6)
