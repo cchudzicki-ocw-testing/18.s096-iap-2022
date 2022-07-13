@@ -41,38 +41,44 @@ Lecture # and Topics
 {{< thclose >}}{{< thopen >}}
 Key Dates
 {{< thclose >}}{{< trclose >}}{{< theadclose >}}{{< tbodyopen >}}{{< tropen >}}{{< tdopen >}}
-Lecture 1 Part 1: Introduction   
+Lecture 1 Part 1: Introduction    
 Lecture 1 Part 2: Derivatives as Linear Operators
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 2 Part 1: Derivatives as Linear Operators (cont.)  
+Lecture 2 Part 1: Derivatives as Linear Operators (cont.)   
 Lecture 2 Part 2: Two by Two Matrix Jacobians
 {{< tdclose >}}{{< tdopen >}}
 Problem Set 1 out
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 3: 
+Lecture 3 Part 1:   
+Lecture 3 Part 2: 
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 4: 
+Lecture 4 Part 1:   
+Lecture 4 Part 2: 
 {{< tdclose >}}{{< tdopen >}}
-Problem Set 1 due   
+Problem Set 1 due    
 Problem Set 2 out
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 5: 
+Lecture 5 Part 1:   
+Lecture 5 Part 2: 
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 6: 
+Lecture 6 Part 1:   
+Lecture 6 Part 2: 
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 7: 
+Lecture 7 Part 1:   
+Lecture 7 Part 2: 
 {{< tdclose >}}{{< tdopen >}}
 Problem Set 2 due
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 8: 
+Lecture 8 Part 1:   
+Lecture 8 Part 2: 
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tbodyclose >}}{{< tableclose >}}
