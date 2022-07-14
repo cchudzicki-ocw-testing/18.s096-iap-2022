@@ -24,7 +24,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 ### Lecture Notes
 
 - Part 1: Derivatives as Linear Operators (cont.) \[notes not available\]
-- Part 2: Two by Two Matrix Jacobians [(html)](https://rawcdn.githack.com/mitmath/matrixcalc/7340d2a7d40e6548a5ca0945ecae96cbac659929/2x2Jacobians.jl.html) [(pluto notebook source code)](https://github.com/mitmath/matrixcalc/blob/main/2x2Jacobians.jl)
+- Part 2: Two by Two Matrix Jacobians ([html](https://rawcdn.githack.com/mitmath/matrixcalc/7340d2a7d40e6548a5ca0945ecae96cbac659929/2x2Jacobians.jl.html)) ([pluto notebook source code](https://github.com/mitmath/matrixcalc/blob/main/2x2Jacobians.jl))
 
 ### Further Readings:
 
@@ -54,7 +54,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 ### Lecture Notes
 
 - Part 1: The Gradient of the Determinant ([html](https://rawcdn.githack.com/mitmath/matrixcalc/c97512521a9ff63802454ee258f1759c45f7d8b6/determinant_and_inverse.html)) ([julia source](https://github.com/mitmath/matrixcalc/blob/main/determinant_and_inverse.jl))
-- Part 2: Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation
+- Part 2: Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation (PDF)
 
 ### Further Readings:
 
