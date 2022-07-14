@@ -9,8 +9,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1
-- Part 2
+- Part 1: Introduction
+- Part 2: Derivatives as Linear Operators
 
 ### Further Readings:
 
@@ -20,8 +20,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1
-- Part 2
+- Part 1: Derivatives as Linear Operators (cont.)
+- Part 2: Two by Two Matrix Jacobians
 
 ### Further Readings:
 
@@ -31,8 +31,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1
-- Part 2
+- Part 1: The Gradient of a Scalar Function of a Vector: Column Vector or Row Vector? 
+- Part 2: Finite-Difference
 
 ### Further Readings:
 
@@ -42,8 +42,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1
-- Part 2
+- Part 1: Derivative of Matrix Determinant and Inverse
+- Part 2: Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation
 
 ### Further Readings:
 
@@ -53,8 +53,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1
-- Part 2
+- Automatic Differentiation
 
 ### Further Readings:
 
@@ -64,8 +63,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1
-- Part 2
+- Part 1: Derivatives of Eigenproblems
+- Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices
 
 ### Further Readings:
 
@@ -75,8 +74,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1
-- Part 2
+- Part 1: Hessian Matrices (cont.)
+- Part 2: Derivatives and Backpropagation on Graphs and Linear Operators
 
 ### Further Readings:
 
@@ -86,8 +85,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1
-- Part 2
+- Part 1: Hessian Matrices (cont.)
+- Part 2: Differentiable Programming and Neural Differential Equations
 
 ### Further Readings:
 
