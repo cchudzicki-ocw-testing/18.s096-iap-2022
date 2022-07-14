@@ -9,19 +9,20 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1: Introduction
-- Part 2: Derivatives as Linear Operators
+- Part 1: Introduction (PDF)
+- Part 2: Derivatives as Linear Operators \[notes not available\]
 
 ### Further Readings:
 
-- read
+- [matrixcalculus.org](http://www.matrixcalculus.org/) is a fun site to play with derivatives of matrix and vector functions. 
+- [The Matrix Cookbook (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) has a lot of formulas for these derivatives, but no derivations.
 
 ## Lecture 2
 
 ### Lecture Notes
 
-- Part 1: Derivatives as Linear Operators (cont.)
-- Part 2: Two by Two Matrix Jacobians
+- Part 1: Derivatives as Linear Operators (cont.) \[notes not available\]
+- Part 2: [Two by Two Matrix Jacobians](https://rawcdn.githack.com/mitmath/matrixcalc/7340d2a7d40e6548a5ca0945ecae96cbac659929/2x2Jacobians.jl.html)
 
 ### Further Readings:
 
