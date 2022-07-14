@@ -41,42 +41,42 @@ Lecture # and Topics
 {{< thclose >}}{{< thopen >}}
 Key Dates
 {{< thclose >}}{{< trclose >}}{{< theadclose >}}{{< tbodyopen >}}{{< tropen >}}{{< tdopen >}}
-Lecture 1 Part 1: Introduction      
+Lecture 1 Part 1: Introduction       
 Lecture 1 Part 2: Derivatives as Linear Operators
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 2 Part 1: Derivatives as Linear Operators (cont.)     
+Lecture 2 Part 1: Derivatives as Linear Operators (cont.)      
 Lecture 2 Part 2: Two by Two Matrix Jacobians
 {{< tdclose >}}{{< tdopen >}}
 Problem Set 1 out
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 3 Part 1: The Gradient of a Scalar Function of a Vector: Column Vector or Row Vector?   
-Lecture 3 Part 2: Finite-Difference
+Lecture 3 Part 1: The Gradient of a Scalar Function of a Vector: Column Vector or Row Vector?    
+Lecture 3 Part 2: Finite Difference
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 4 Part 1: Derivative of Matrix Determinant and Inverse   
+Lecture 4 Part 1: Derivative of Matrix Determinant and Inverse    
 Lecture 4 Part 2: Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation
 {{< tdclose >}}{{< tdopen >}}
-Problem Set 1 due      
+Problem Set 1 due       
 Problem Set 2 out
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
 Lecture 5: Automatic Differentiation
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 6 Part 1: Derivatives of Eigenproblems   
+Lecture 6 Part 1: Derivatives of Eigenproblems    
 Lecture 6 Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 7 Part 1: Hessian Matrices (cont.)   
+Lecture 7 Part 1: Hessian Matrices (cont.)    
 Lecture 7 Part 2: Derivatives and Backpropagation on Graphs and Linear Operators
 {{< tdclose >}}{{< tdopen >}}
 Problem Set 2 due
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 8 Part 1: Hessian Matrices (cont.)   
+Lecture 8 Part 1: Hessian Matrices (cont.)    
 Lecture 8 Part 2: Differentiable Programming and Neural Differential Equations
 {{< tdclose >}}{{< tdopen >}}
  
