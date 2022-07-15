@@ -73,11 +73,13 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Automatic Differentiation
+- [Forward and Reverse Automatic Differentiation In A Nutshell](https://rawcdn.githack.com/mitmath/matrixcalc/e90417f46a20bec6d9c743c6b7bf5b178e77913a/automatic_differentiation_done_quick.html) (guest lecture by [Dr. Chris Rackauckas](https://chrisrackauckas.com/))
 
 ### Further Readings:
 
-- read
+- Googling "automatic differentiation" will turn up many, many resources — this is a huge practical field these days. [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl) (described detail by [Forward-Mode Automatic Differentiation in Julia](https://arxiv.org/abs/1607.07892)) uses [dual number](https://en.wikipedia.org/wiki/Dual_number) arithmetic similar to lecture to compute derivatives.
+- See also the article [How to Differentiate with a Computer](http://www.ams.org/publicoutreach/feature-column/fc-2017-12), or google "dual number automatic differentiation" for many other reviews. 
+- Implementing automatic reverse-mode AD is much more complicated than defining a new number type, unfortunately, and involves a lot more intricacies of compiler technology. See also Chris's blog post on [Engineering Trade-offs in Aautomatic Differentiation](https://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/), and Chris Rackauckas' discussion post on [AD limitations](https://discourse.julialang.org/t/open-discussion-on-the-state-of-differentiable-physics-in-julia/72900/2).
 
 ## Lecture 6
 
