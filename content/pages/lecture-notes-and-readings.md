@@ -56,9 +56,18 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 - Part 1: The Gradient of the Determinant ([html](https://rawcdn.githack.com/mitmath/matrixcalc/c97512521a9ff63802454ee258f1759c45f7d8b6/determinant_and_inverse.html)) ([julia source](https://github.com/mitmath/matrixcalc/blob/main/determinant_and_inverse.jl))
 - Part 2: Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation (PDF)
 
-### Further Readings:
+### Further Readings (Part 1):
 
-- re
+- There are lots of discussions of the [derivative of a determinant](https://en.wikipedia.org/wiki/Jacobi%27s_formula) online, involving the ["adjugate" matrix](https://en.wikipedia.org/wiki/Adjugate_matrix) det(A)A⁻¹. Not as well documented is that the gradient of the determinant is the cofactor matrix widely used for the [Laplace expansion](https://en.wikipedia.org/wiki/Laplace_expansion) of a determinant. 
+- The formula for the [derivative of log(det A)](https://statisticaloddsandends.wordpress.com/2018/05/24/derivative-of-log-det-x/) is also nice, and logs of determinants appear in surprisingly many applications (from statistics to quantum field theory). 
+- [The Matrix Cookbook (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) contains many of these formulas, but no derivations. 
+- A nice application of d(det(A)) is solving for eigenvalues λ by applying Newton's method to det(A-λI)=0, and more generally one can solve det(M(λ))=0 for any function Μ(λ) — the resulting roots λ are called [nonlinear eigenvalues](https://en.wikipedia.org/wiki/Nonlinear_eigenproblem) (if M is nonlinear in λ), and one can apply Newton's method in ["The Nonlinear Eigenvalue Problem: Part II (PDF)"](https://www.maths.manchester.ac.uk/~ftisseur/talks/FT_talk2.pdf) using the determinant-derivative formula here.
+
+### Further Readings (Part 2):
+
+- There are many textbooks on [nonlinear programming](http://www.athenasc.com/nonlinbook.html), including specialized books on [convex optimization](http://web.stanford.edu/~boyd/cvxbook/), [derivative-free optimization](http://bookstore.siam.org/mp08/), etcetera. 
+- A useful review of topology-optimization methods can be found in Sigmund and Maute's [Topology Optimization Approaches](https://link.springer.com/article/10.1007/s00158-013-0978-6). 
+- See the [notes on adjoint methods](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf) and [The adjoint method for differentiating complex computations (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint-intro.pdf) from *18.335 Introduction to Numerical Methods*.
 
 ## Lecture 5
 
