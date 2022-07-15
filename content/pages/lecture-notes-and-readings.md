@@ -66,7 +66,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 ### Further Readings (Part 2):
 
 - There are many textbooks on [nonlinear programming](http://www.athenasc.com/nonlinbook.html), including specialized books on [convex optimization](http://web.stanford.edu/~boyd/cvxbook/), [derivative-free optimization](http://bookstore.siam.org/mp08/), etcetera. 
-- A useful review of topology-optimization methods can be found in Sigmund and Maute's [Topology Optimization Approaches](https://link.springer.com/article/10.1007/s00158-013-0978-6). 
+- A useful review of topology-optimization methods can be found in Sigmund and Maute's "[Topology Optimization Approaches](https://link.springer.com/article/10.1007/s00158-013-0978-6)". 
 - See the [Notes on Adjoint Methods (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf) and [The Adjoint Method for Differentiating Complex Computations (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint-intro.pdf) from *18.335 Introduction to Numerical Methods*.
 
 ## Lecture 5
