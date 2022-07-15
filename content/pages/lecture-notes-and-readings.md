@@ -58,7 +58,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Further Readings:
 
-- read
+- re
 
 ## Lecture 5
 
