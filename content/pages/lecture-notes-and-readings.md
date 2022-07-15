@@ -85,8 +85,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1: Derivatives of Eigenproblems
-- Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices
+- Part 1: Derivatives of Eigenproblems ([html](https://rawcdn.githack.com/mitmath/matrixcalc/61a7b3e0cbebd0ccdc126fbe831d1398154e272b/symeig.jl.html)) ([julia source](https://github.com/mitmath/matrixcalc/blob/main/symeig.jl))
+- Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices \[notes not available\]
 
 ### Further Readings:
 
@@ -96,8 +96,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1: Hessian Matrices (cont.)
-- Part 2: Derivatives and Backpropagation on Graphs and Linear Operators
+- Part 1: Hessian Matrices (cont.) \[notes not available\]
+- Part 2: [Backpropagation through Back Substitution with a Backslash (PDF)](https://github.com/mitmath/matrixcalc/blob/main/backprop_poster.pdf)
 
 ### Further Readings:
 
@@ -107,8 +107,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1: Hessian Matrices (cont.)
-- Part 2: Differentiable Programming and Neural Differential Equations
+- Part 1: Hessian Matrices (cont.) \[notes not available\]
+- Part 2: [Differentiable Programming and Neural Differential Equations](https://rawcdn.githack.com/mitmath/18337/7b0e890e1211bfa253782f7862389aeaa321e8d7/lecture11/adjoints.html) (guest lecture by [Dr. Chris Rackauckas](https://chrisrackauckas.com/))
 
 ### Further Readings:
 
