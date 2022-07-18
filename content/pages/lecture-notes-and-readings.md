@@ -15,8 +15,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 ### Further Readings:
 
 - [matrixcalculus.org](http://www.matrixcalculus.org/) is a fun site to play with derivatives of matrix and vector functions. 
-- [The Matrix Cookbook (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) has a lot of formulas for these derivatives, but no derivations.
-- [Vector and Matrix Differentiation (PDF)](https://cdn-uploads.piazza.com/paste/j779e63owl53k6/04b2cb8c2f300212d723bea822a6b856085b28e28ca9debc75a05761a436499c/6.S087_Lecture_2.pdf)
+- [*The Matrix Cookbook* (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) has a lot of formulas for these derivatives, but no derivations.
+- Notes on [Vector and Matrix Differentiation (PDF)](https://cdn-uploads.piazza.com/paste/j779e63owl53k6/04b2cb8c2f300212d723bea822a6b856085b28e28ca9debc75a05761a436499c/6.S087_Lecture_2.pdf) are helpful.
 - **Fancier math**: The perspective of derivatives as linear operators is sometimes called a [Fréchet derivative](https://en.wikipedia.org/wiki/Fr%C3%A9chet_derivative) and you can find lots of very abstract (what I'm calling "fancy") presentations of this online, chock full of weird terminology whose purpose is basically to generalize the concept to weird types of vector spaces. The "little-o notation" o(δx) we're using here for "infinitesimal asymptotics" is closely related to the [Big *O* notation](https://en.wikipedia.org/wiki/Big_O_notation) used in computer science, but in computer science people are typically taking the limit as the argument (often called "n") becomes very *large* instead of very small. A fancy name for a row vector is a "covector" or [linear form](https://en.wikipedia.org/wiki/Linear_form), and the fancy version of the relationship between row and column vectors is the [Riesz representation theorem](https://en.wikipedia.org/wiki/Riesz_representation_theorem), but until you get to non-Euclidean geometry you may be happier thinking of a row vector as the transpose of a column vector.
 
 ## Lecture 2
@@ -28,7 +28,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Further Readings:
 
-- The terms "forward-mode" and "reverse-mode" differentiation are most prevalent in [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) (AD), which will will cover later in this course. 
+- The terms "forward-mode" and "reverse-mode" differentiation are most prevalent in [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) (AD), which will cover later in this course. 
 - You can find many, many articles online about [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) in neural networks. 
 - There are many other versions of this, e.g. in differential geometry the derivative linear operator (multiplying Jacobians and perturbations dx right-to-left) is called a [pushforward](https://en.wikipedia.org/wiki/Pushforward_(differential)), whereas multiplying a gradient row vector (covector) by a Jacobian left-to-right is called a [pullback](https://en.wikipedia.org/wiki/Pullback_(differential_geometry)). 
 - This video on "[Understanding Automatic Differentiation](https://www.youtube.com/watch?v=UqymrMG-Qi4)" by [Dr. Mohamed Tarek](https://github.com/mohamed82008) also starts with a similar left-to-right (reverse) vs right-to-left (forward) viewpoint and goes into how it translates to Julia code, and how you define custom chain-rule steps for Julia AD.
@@ -45,8 +45,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 - Wikipedia has a useful list of [properties of the matrix trace](https://en.wikipedia.org/wiki/Trace_(linear_algebra)#Properties). 
 - The "matrix dot product" introduced today is also called the [Frobenius inner product](https://en.wikipedia.org/wiki/Frobenius_inner_product), and the corresponding norm ("length" of the matrix viewed as a vector) is the [Frobenius norm](https://mathworld.wolfram.com/FrobeniusNorm.html). 
 - When you "flatten" a matrix A by stacking its columns into a single vector, the result is called [vec(A)](https://en.wikipedia.org/wiki/Vectorization_(mathematics)), and many important linear operations on matrices can be expressed as [Kronecker products](https://en.wikipedia.org/wiki/Kronecker_product). 
-- [The Matrix Cookbook (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) has lots of formulas for derivatives of matrix functions. 
-- There is a lot of information online on [finite difference](https://en.wikipedia.org/wiki/Finite_difference), [18.303 notes on finite differences (PDF)](https://github.com/mitmath/18303/blob/fall16/difference-approx.pdf), or [Section 5.7 of Numerical Derivatives (PDF)](http://www.it.uom.gr/teaching/linearalgebra/NumericalRecipiesInC/c5-7.pdf). 
+- [*The Matrix Cookbook* (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) has lots of formulas for derivatives of matrix functions. 
+- There is a lot of information online on [finite difference](https://en.wikipedia.org/wiki/Finite_difference), [18.303 Notes on Finite Differences (PDF)](https://github.com/mitmath/18303/blob/fall16/difference-approx.pdf), or [Section 5.7 of Numerical Derivatives (PDF)](http://www.it.uom.gr/teaching/linearalgebra/NumericalRecipiesInC/c5-7.pdf). 
 - The Julia [FiniteDifferences.jl](https://github.com/JuliaDiff/FiniteDifferences.jl) package provides lots of algorithms to compute finite-difference approximations; a particularly robust and powerful way to obtain high accuracy is to employ [Richardson extrapolation](https://github.com/JuliaDiff/FiniteDifferences.jl#richardson-extrapolation) to smaller and smaller δx. If you make δx too small, the finite precision (#digits) of [floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic) leads to [catastrophic cancellation](https://en.wikipedia.org/wiki/Catastrophic_cancellation) errors.
 
 ## Lecture 4
@@ -60,12 +60,12 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 - There are lots of discussions of the [derivative of a determinant](https://en.wikipedia.org/wiki/Jacobi%27s_formula) online, involving the ["adjugate" matrix](https://en.wikipedia.org/wiki/Adjugate_matrix) det(A)A⁻¹. Not as well documented is that the gradient of the determinant is the cofactor matrix widely used for the [Laplace expansion](https://en.wikipedia.org/wiki/Laplace_expansion) of a determinant. 
 - The formula for the [derivative of log(det X)](https://statisticaloddsandends.wordpress.com/2018/05/24/derivative-of-log-det-x/) is also nice, and logs of determinants appear in surprisingly many applications (from statistics to quantum field theory). 
-- [The Matrix Cookbook (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) contains many of these formulas, but no derivations. 
+- [*The Matrix Cookbook* (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) contains many of these formulas, but no derivations. 
 - A nice application of d(det(A)) is solving for eigenvalues λ by applying Newton's method to det(A-λI)=0, and more generally one can solve det(M(λ))=0 for any function Μ(λ) — the resulting roots λ are called [nonlinear eigenvalues](https://en.wikipedia.org/wiki/Nonlinear_eigenproblem) (if M is nonlinear in λ), and one can apply Newton's method in ["The Nonlinear Eigenvalue Problem: Part II (PDF)"](https://www.maths.manchester.ac.uk/~ftisseur/talks/FT_talk2.pdf) using the determinant-derivative formula here.
 
 ### Further Readings (Part 2):
 
-- There are many textbooks on [nonlinear programming](http://www.athenasc.com/nonlinbook.html), including specialized books on [Convex Optimization](http://web.stanford.edu/~boyd/cvxbook/) (by Boyd and Vandenberghe), [Introduction to Derivative-Free Optimization](http://bookstore.siam.org/mp08/) (by Conn, Scheinberg, and Vicente), etcetera. 
+- There are many textbooks on [*Nonlinear Programming*](http://www.athenasc.com/nonlinbook.html) (by Bertsekas), including specialized books on [*Convex Optimization*](http://web.stanford.edu/~boyd/cvxbook/) (by Boyd and Vandenberghe), [*Introduction to Derivative-Free Optimization*](http://bookstore.siam.org/mp08/) (by Conn, Scheinberg, and Vicente), etcetera. 
 - A useful review of topology-optimization methods can be found in Sigmund and Maute's "[Topology Optimization Approaches](https://link.springer.com/article/10.1007/s00158-013-0978-6)". 
 - See the [Notes on Adjoint Methods (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf) and [The Adjoint Method for Differentiating Complex Computations (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint-intro.pdf) from *18.335 Introduction to Numerical Methods*.
 
@@ -77,7 +77,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Further Readings:
 
-- Googling "automatic differentiation" will turn up many, many resources — this is a huge practical field these days. [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl) (described detail by [Forward-Mode Automatic Differentiation in Julia](https://arxiv.org/abs/1607.07892)) uses [dual number](https://en.wikipedia.org/wiki/Dual_number) arithmetic similar to lecture to compute derivatives.
+- Googling "automatic differentiation" will turn up many, many resources — this is a huge practical field these days. [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl) (described detail by "[Forward-Mode Automatic Differentiation in Julia](https://arxiv.org/abs/1607.07892)") uses [dual number](https://en.wikipedia.org/wiki/Dual_number) arithmetic similar to lecture to compute derivatives.
 - See also the article "[How to Differentiate with a Computer](http://www.ams.org/publicoutreach/feature-column/fc-2017-12)", or google "dual number automatic differentiation" for many other reviews. 
 - Implementing automatic reverse-mode AD is much more complicated than defining a new number type, unfortunately, and involves a lot more intricacies of compiler technology. See also Chris's blog post on [Engineering Trade-offs in Aautomatic Differentiation](https://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/), and Chris Rackauckas' discussion post on [AD limitations](https://discourse.julialang.org/t/open-discussion-on-the-state-of-differentiable-physics-in-julia/72900/2).
 
@@ -109,14 +109,14 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Further Readings (Part 1):
 
-- [Positive-definite](https://en.wikipedia.org/wiki/Definite_matrix) Hessian matrices, or more generally [definite quadratic forms](https://en.wikipedia.org/wiki/Definite_quadratic_form) f″, appear at extrema (f′=0) of scalar-valued functions f(x) that are local minima; there are a lot more formal treatments of the same idea—[unconstrained optimization (PDF)](http://www.columbia.edu/~md3405/Unconstrained_Optimization.pdf), and conversely Khan academy has the [simple 2-variable version](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions/a/second-partial-derivative-test) where you can check the sign of the 2×2 eigenvalues just by looking at the determinant and a single entry (or the trace). 
+- [Positive-definite](https://en.wikipedia.org/wiki/Definite_matrix) Hessian matrices, or more generally [definite quadratic forms](https://en.wikipedia.org/wiki/Definite_quadratic_form) f″, appear at extrema (f′=0) of scalar-valued functions f(x) that are local minima; there are a lot more formal treatments of the same idea—[Unconstrained Optimization (PDF)](http://www.columbia.edu/~md3405/Unconstrained_Optimization.pdf), and conversely Khan academy has the [simple 2-variable version](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions/a/second-partial-derivative-test) where you can check the sign of the 2×2 eigenvalues just by looking at the determinant and a single entry (or the trace). 
 - There's a nice [stackexchange discussion](https://math.stackexchange.com/questions/2285282/relating-condition-number-of-hessian-to-the-rate-of-convergence) on why an [ill-conditioned](https://nhigham.com/2020/03/19/what-is-a-condition-number/) Hessian tends to make steepest descent converge slowly.
-- University of Toronto's [course notes on optimization (PDF)](https://www.cs.toronto.edu/~rgrosse/courses/csc421_2019/slides/lec07.pdf) may also be helpful.
+- University of Toronto's [Course Notes on Optimization (PDF)](https://www.cs.toronto.edu/~rgrosse/courses/csc421_2019/slides/lec07.pdf) may also be helpful.
 
 ### Further Readings (Part 2):
 
-- See this blog post on [calculus on computational graphs](https://colah.github.io/posts/2015-08-Backprop/) for a gentle review.
-- See Columbia University's [course notes (PDF)](http://www.cs.columbia.edu/~mcollins/ff2.pdf) for a more formal approach.
+- See this blog post on [Calculus on Computational Graphs](https://colah.github.io/posts/2015-08-Backprop/) for a gentle review.
+- See Columbia University's [Course Notes on Computational Graphs, and Backpropagation (PDF)](http://www.cs.columbia.edu/~mcollins/ff2.pdf) for a more formal approach.
 
 ## Lecture 8
 
@@ -127,8 +127,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Further Readings (Part 1):
 
-- See e.g. these Stanford University's notes on [sequential convex programming (PDF)](https://web.stanford.edu/class/ee364b/lectures/seq_notes.pdf) using trust regions (sec. 2.2). 
-- See 18.335 notes on [quasi-Newton optimization: origin of the BFGS update (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/BFGS.pdf). 
+- See e.g. these Stanford University's notes on [Sequential Convex Programming (PDF)](https://web.stanford.edu/class/ee364b/lectures/seq_notes.pdf) using trust regions (sec. 2.2). 
+- See 18.335 notes on [Quasi-Newton Optimization: Origin of the BFGS Update (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/BFGS.pdf). 
 - The fact that a quadratic optimization problem in a sphere has [strong duality](https://en.wikipedia.org/wiki/Strong_duality) and hence is efficiently solvable as discussed in section 5.2.4 of the [*Convex Optimization*](https://web.stanford.edu/~boyd/cvxbook/) by Boyd and Vandenberghe. 
 - There has been a lot of work on [Hessian automatic computation](https://en.wikipedia.org/wiki/Hessian_automatic_differentiation), but for large-scale problems you can ultimately only compute Hessian–vector products efficiently in general, which are equivalent to a directional derivative of the gradient, and can be used e.g. for [Newton–Krylov methods](https://en.wikipedia.org/wiki/Newton%E2%80%93Krylov_method).
 
