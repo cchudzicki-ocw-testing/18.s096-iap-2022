@@ -88,9 +88,13 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 - Part 1: Derivatives of Eigenproblems ([html](https://rawcdn.githack.com/mitmath/matrixcalc/61a7b3e0cbebd0ccdc126fbe831d1398154e272b/symeig.jl.html)) ([julia source](https://github.com/mitmath/matrixcalc/blob/main/symeig.jl))
 - Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices \[notes not available\]
 
-### Further Readings:
+### Further Readings (Part 1):
 
-- read
+- Computing derivatives on curved surfaces ("manifolds") is closely related to [tangent spaces](https://en.wikipedia.org/wiki/Tangent_space) in differential geometry. The effect of constraints can also be expressed in terms of [Lagrange multipliers](https://en.wikipedia.org/wiki/Lagrange_multiplier), which are useful in expressing optimization problems with constraints (see also chapter 5 of [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/) by Boyd and Vandenberghe). In physics, first and second derivatives of eigenvalues and first derivatives of eigenvectors are often presented as part of ["time-independent" perturbation theory](https://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)#Time-independent_perturbation_theory) in quantum mechanics, or as the [Hellmann–Feynmann theorem](https://en.wikipedia.org/wiki/Hellmann%E2%80%93Feynman_theorem) for the case of dλ. The derivative of an eigenvector involves *all* of the other eigenvectors, but a much simpler "vector–Jacobian product" (involving only a single eigenvector and eigenvalue) can be obtained from left-to-right differentiation of a *scalar function* of an eigenvector, as reviewed in the [18.335 notes on adjoint methods](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf).
+
+### Further Readings (Part 2):
+
+- [Bilinear forms](https://en.wikipedia.org/wiki/Bilinear_form) are an important generalization of quadratic operations to arbitrary vector spaces, and we saw that the second derivative can be viewed as a [symmetric bilinear forms](https://en.wikipedia.org/wiki/Symmetric_bilinear_form). This is closely related to a [quadratic form](https://en.wikipedia.org/wiki/Quadratic_form), which is just what we get by plugging in the same vector twice, e.g. the f''(x)\[δx,δx\]/2 that appears in quadratic approximations for f(x+δx) is a quadratic form. The most familar multivariate version of f''(x) is the [Hessian matrix](https://en.wikipedia.org/wiki/Hessian_matrix); Khan academy has an elementary \[introduction to quadratic approximation\]([https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/quadratic-approxi](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/quadratic-approxi)
 
 ## Lecture 7
 
@@ -99,9 +103,14 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 - Part 1: Hessian Matrices (cont.) \[notes not available\]
 - Part 2: [Backpropagation through Back Substitution with a Backslash (PDF)](https://github.com/mitmath/matrixcalc/blob/main/backprop_poster.pdf)
 
-### Further Readings:
+### Further Readings (Part 1):
 
-- read
+- [Positive-definite](https://en.wikipedia.org/wiki/Definite_matrix) Hessian matrices, or more generally [definite quadratic forms](https://en.wikipedia.org/wiki/Definite_quadratic_form) f″, appear at extrema (f′=0) of scalar-valued functions f(x) that are local minima; there a lot [more formal treatments](http://www.columbia.edu/~md3405/Unconstrained_Optimization.pdf) of the same idea, and conversely Khan academy has the [simple 2-variable version](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions/a/second-partial-derivative-test) where you can check the sign of the 2×2 eigenvalues just by looking at the determinant and a single entry (or the trace). There's a nice [stackexchange discussion](https://math.stackexchange.com/questions/2285282/relating-condition-number-of-hessian-to-the-rate-of-convergence) on why an [ill-conditioned](https://nhigham.com/2020/03/19/what-is-a-condition-number/) Hessian tends to make steepest descent converge slowly; some Toronto [course notes on the topic](https://www.cs.toronto.edu/~rgrosse/courses/csc421_2019/slides/lec07.pdf) may also be helpful.
+
+### Further Readings (Part 2):
+
+- See this blog post on [calculus on computational graphs](https://colah.github.io/posts/2015-08-Backprop/) for a gentle review.
+- See Columbia University's [course notes (PDF)](http://www.cs.columbia.edu/~mcollins/ff2.pdf) for a more formal approach.
 
 ## Lecture 8
 
@@ -110,6 +119,10 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 - Part 1: Hessian Matrices (cont.) \[notes not available\]
 - Part 2: [Differentiable Programming and Neural Differential Equations](https://rawcdn.githack.com/mitmath/18337/7b0e890e1211bfa253782f7862389aeaa321e8d7/lecture11/adjoints.html) (guest lecture by [Dr. Chris Rackauckas](https://chrisrackauckas.com/))
 
-### Further Readings:
+### Further Readings (Part 1):
 
-- read
+- See e.g. these Stanford notes on [sequential quadratic optimization](https://web.stanford.edu/class/ee364b/lectures/seq_notes.pdf) using trust regions (sec. 2.2). See 18.335 [notes on BFGS quasi-Newton methods](https://github.com/mitmath/18335/blob/spring21/notes/BFGS.pdf) (also [video](https://mit.zoom.us/rec/share/naqcRgSkZ0VNeDp0ht8QmB566mPowuHJ8k0LcaAmZ7XxaCT1ch4j_O4Khzi-taXm.CXI8xFthag4RvvoC?startTime=1620241284000)). The fact that a quadratic optimization problem in a sphere has [strong duality](https://en.wikipedia.org/wiki/Strong_duality) and hence is efficiently solvable is discussed in section 5.2.4 of the [*Convex Optimization* book](https://web.stanford.edu/~boyd/cvxbook/). There has been a lot of work on [automatic Hessian computation](https://en.wikipedia.org/wiki/Hessian_automatic_differentiation), but for large-scale problems you can ultimately only compute Hessian–vector products efficiently in general, which are equivalent to a directional derivative of the gradient, and can be used e.g. for [Newton–Krylov methods](https://en.wikipedia.org/wiki/Newton%E2%80%93Krylov_method).
+
+### Further Readings (Part 2):
+
+- A very general reference on adjoint-method (reverse-mode/backpropagation) differentiation of ODEs (and generalizations thereof), using notation similar to that of Chris R. today, is [Cao et al (2003)](https://epubs.siam.org/doi/10.1137/S1064827501380630) ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.65.455&rep=rep1&type=pdf)). See also the [adjoint sensitivity analysis](https://diffeq.sciml.ai/stable/extras/sensitivity_math/) and [automatic sensitivity analysis](https://diffeq.sciml.ai/stable/analysis/sensitivity/) sections of Chris's amazing [DifferentialEquations.jl software suite](https://diffeq.sciml.ai/stable/) for numerical solution of ODEs in Julia. There is a nice YouTube [lecture on adjoint sensitivity of ODEs](https://www.youtube.com/watch?v=k6s2G5MZv-I), again using a similar notation.
