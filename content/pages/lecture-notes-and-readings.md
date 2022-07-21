@@ -9,7 +9,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1: Introduction (PDF)
+- Part 1: {{% resource_link "62ddbf55-da4b-4f83-9bbd-81b5bf7b3939" "Introduction (PDF)" %}}
 - Part 2: Derivatives as Linear Operators \[notes not available\]
 
 ### Further Readings:
@@ -37,7 +37,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1: The Gradient of a Scalar Function of a Vector: Column Vector or Row Vector? (PDF)
+- Part 1: {{% resource_link "e8eecb54-8a16-42ef-a24d-745cbf9451e3" "The Gradient of a Scalar Function of a Vector: Column Vector or Row Vector? (PDF)" %}}
 - Part 2: [Finite Difference](https://nbviewer.org/github/mitmath/matrixcalc/blob/main/Finite%20difference%20checks.ipynb)
 
 ### Further Readings:
@@ -54,7 +54,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 ### Lecture Notes
 
 - Part 1: The Gradient of the Determinant ([html](https://rawcdn.githack.com/mitmath/matrixcalc/c97512521a9ff63802454ee258f1759c45f7d8b6/determinant_and_inverse.html)) ([julia source](https://github.com/mitmath/matrixcalc/blob/main/determinant_and_inverse.jl))
-- Part 2: Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation (PDF)
+- Part 2: {{% resource_link "919ee4e8-9fc1-413e-8494-784eac281efe" "Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation (PDF)" %}}
 
 ### Further Readings (Part 1):
 
