@@ -25,6 +25,8 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 - Part 1: Derivatives as Linear Operators (cont.) \[notes not available\]
 - Part 2: Two by Two Matrix Jacobians ([html](https://rawcdn.githack.com/mitmath/matrixcalc/7340d2a7d40e6548a5ca0945ecae96cbac659929/2x2Jacobians.jl.html)) ([pluto notebook source code](https://github.com/mitmath/matrixcalc/blob/main/2x2Jacobians.jl))
+- **FOR COMPARISON (HTML):**  ([html](https://rawcdn.githack.com/mitmath/matrixcalc/7340d2a7d40e6548a5ca0945ecae96cbac659929/2x2Jacobians.jl.html)) (link to github),  ({{% resource_link "20889a45-9c0a-469d-85a9-e0a0b5310166" "html" %}}) (direct from OCW)
+- **FOR COMPARISON (Source code):**  ([pluto notebook source code](https://github.com/mitmath/matrixcalc/blob/main/2x2Jacobians.jl)) (link to github),  ({{% resource_link "a8b22005-bdb0-4706-bb02-b0e81e46792b" "pluto notebook source code" %}}) (direct from OCW)
 
 ### Further Readings:
 
