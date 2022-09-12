@@ -25,7 +25,6 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 - Part 1: Derivatives as Linear Operators (cont.) \[notes not available\]
 - Part 2: Two by Two Matrix Jacobians ([html](https://rawcdn.githack.com/mitmath/matrixcalc/7340d2a7d40e6548a5ca0945ecae96cbac659929/2x2Jacobians.jl.html)) ([pluto notebook source code](https://github.com/mitmath/matrixcalc/blob/main/2x2Jacobians.jl))
-- **FOR COMPARISON:**  ([pluto notebook source code](https://github.com/mitmath/matrixcalc/blob/main/2x2Jacobians.jl)) (link to github),  ({{% resource_link "a8b22005-bdb0-4706-bb02-b0e81e46792b" "pluto notebook source code" %}}) (direct from OCW)
 
 ### Further Readings:
 
@@ -39,7 +38,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 ### Lecture Notes
 
 - Part 1: {{% resource_link "e8eecb54-8a16-42ef-a24d-745cbf9451e3" "The Gradient of a Scalar Function of a Vector: Column Vector or Row Vector? (PDF)" %}}
-- **FOR COMPARISON:** Part 2: [Finite Difference](https://nbviewer.org/github/mitmath/matrixcalc/blob/main/Finite%20difference%20checks.ipynb) (link to github), {{% resource_link "019bb095-3356-4cba-89e2-73598a62e1b5" "Finite Difference" %}} (direct from OCW)
+- Part 2: [Finite Difference](https://nbviewer.org/github/mitmath/matrixcalc/blob/main/Finite%20difference%20checks.ipynb) 
 
 ### Further Readings:
 
