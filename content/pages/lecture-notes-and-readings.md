@@ -53,7 +53,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1: The Gradient of the Determinant ([html](https://rawcdn.githack.com/mitmath/matrixcalc/c97512521a9ff63802454ee258f1759c45f7d8b6/determinant_and_inverse.html)) ([julia source](https://github.com/mitmath/matrixcalc/blob/main/determinant_and_inverse.jl))
+- Part 1: [The Gradient of the Determinant (html)](https://rawcdn.githack.com/mitmath/matrixcalc/c97512521a9ff63802454ee258f1759c45f7d8b6/determinant_and_inverse.html) ({{% resource_link "5153711d-d113-46cb-8df6-e7e20a7f78a2" "download the zip file" %}}) ([Julia source](https://github.com/mitmath/matrixcalc/blob/main/determinant_and_inverse.jl)) ({{% resource_link "6cd714af-b338-40c7-a3a0-7d570503a662" "download Julia source" %}})
 - Part 2: {{% resource_link "919ee4e8-9fc1-413e-8494-784eac281efe" "Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation (PDF)" %}}
 
 ### Further Readings (Part 1):
@@ -73,7 +73,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- [Forward and Reverse Automatic Differentiation in a Nutshell](https://rawcdn.githack.com/mitmath/matrixcalc/e90417f46a20bec6d9c743c6b7bf5b178e77913a/automatic_differentiation_done_quick.html) (guest lecture by [Dr. Chris Rackauckas](https://chrisrackauckas.com/))
+- [Forward and Reverse Automatic Differentiation in a Nutshell](https://rawcdn.githack.com/mitmath/matrixcalc/e90417f46a20bec6d9c743c6b7bf5b178e77913a/automatic_differentiation_done_quick.html) (guest lecture by [Dr. Chris Rackauckas](https://chrisrackauckas.com/)) ({{% resource_link "16c346e3-c441-411e-b9a5-a3bbb8bf71d1" "download the zip file" %}})
 
 ### Further Readings:
 
