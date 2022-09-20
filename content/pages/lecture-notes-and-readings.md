@@ -61,7 +61,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 - There are lots of discussions of the [derivative of a determinant](https://en.wikipedia.org/wiki/Jacobi%27s_formula) online, involving the ["adjugate" matrix](https://en.wikipedia.org/wiki/Adjugate_matrix) det(A)A⁻¹. Not as well documented is that the gradient of the determinant is the cofactor matrix widely used for the [Laplace expansion](https://en.wikipedia.org/wiki/Laplace_expansion) of a determinant. 
 - The formula for the [derivative of log(det X)](https://statisticaloddsandends.wordpress.com/2018/05/24/derivative-of-log-det-x/) is also nice, and logs of determinants appear in surprisingly many applications (from statistics to quantum field theory). 
 - [*The Matrix Cookbook* (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) contains many of these formulas, but no derivations. 
-- A nice application of d(det(A)) is solving for eigenvalues λ by applying Newton's method to det(A-λI)=0, and more generally one can solve det(M(λ))=0 for any function Μ(λ) — the resulting roots λ are called [nonlinear eigenvalues](https://en.wikipedia.org/wiki/Nonlinear_eigenproblem) (if M is nonlinear in λ), and one can apply Newton's method in ["The Nonlinear Eigenvalue Problem: Part II (PDF)"](https://www.maths.manchester.ac.uk/~ftisseur/talks/FT_talk2.pdf) using the determinant-derivative formula here.
+- A nice application of d(det(A)) is solving for eigenvalues λ by applying Newton's method to det(A-λI)=0, and more generally one can solve det(M(λ))=0 for any function Μ(λ) — the resulting roots λ are called [nonlinear eigenvalues](https://en.wikipedia.org/wiki/Nonlinear_eigenproblem) (if M is nonlinear in λ), and one can apply Newton's method in ["The Nonlinear Eigenvalue Problem: Part II (PDF - 1.2 MB)"](https://www.maths.manchester.ac.uk/~ftisseur/talks/FT_talk2.pdf) using the determinant-derivative formula here.
 
 ### Further Readings (Part 2):
 
@@ -111,7 +111,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 - [Positive-definite](https://en.wikipedia.org/wiki/Definite_matrix) Hessian matrices, or more generally [definite quadratic forms](https://en.wikipedia.org/wiki/Definite_quadratic_form) f″, appear at extrema (f′=0) of scalar-valued functions f(x) that are local minima; there are a lot more formal treatments of the same idea—[Unconstrained Optimization (PDF)](http://www.columbia.edu/~md3405/Unconstrained_Optimization.pdf), and conversely Khan academy has the [simple 2-variable version](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions/a/second-partial-derivative-test) where you can check the sign of the 2×2 eigenvalues just by looking at the determinant and a single entry (or the trace). 
 - There's a nice [stackexchange discussion](https://math.stackexchange.com/questions/2285282/relating-condition-number-of-hessian-to-the-rate-of-convergence) on why an [ill-conditioned](https://nhigham.com/2020/03/19/what-is-a-condition-number/) Hessian tends to make steepest descent converge slowly.
-- University of Toronto's [Course Notes on Optimization (PDF)](https://www.cs.toronto.edu/~rgrosse/courses/csc421_2019/slides/lec07.pdf) may also be helpful.
+- University of Toronto's [Course Notes on Optimization (PDF - 3.3 MB)](https://www.cs.toronto.edu/~rgrosse/courses/csc421_2019/slides/lec07.pdf) may also be helpful.
 
 ### Further Readings (Part 2):
 
