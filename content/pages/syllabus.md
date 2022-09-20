@@ -12,7 +12,7 @@ Lectures: 3 sessions / week, 2 hours / session
 
 ## Prerequisites
 
-Linear Algebra such as [*18.06 Linear Algebra*](https://old.ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) and multivariate calculus such as [*18.02 Multivariable Calculus*](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/)
+Linear Algebra such as [*18.06 Linear Algebra*](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/) and multivariate calculus such as [*18.02 Multivariable Calculus*](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/)
 
 ## Course Description
 
@@ -41,42 +41,42 @@ Lecture # and Topics
 {{< thclose >}}{{< thopen >}}
 Key Dates
 {{< thclose >}}{{< trclose >}}{{< theadclose >}}{{< tbodyopen >}}{{< tropen >}}{{< tdopen >}}
-Lecture 1 Part 1: Introduction          
+Lecture 1 Part 1: Introduction           
 Lecture 1 Part 2: Derivatives as Linear Operators
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 2 Part 1: Derivatives as Linear Operators (cont.)         
+Lecture 2 Part 1: Derivatives as Linear Operators (cont.)          
 Lecture 2 Part 2: Two by Two Matrix Jacobians
 {{< tdclose >}}{{< tdopen >}}
 Problem Set 1 out
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 3 Part 1: The Gradient of a Scalar Function of a Vector: Column Vector or Row Vector?       
+Lecture 3 Part 1: The Gradient of a Scalar Function of a Vector: Column Vector or Row Vector?        
 Lecture 3 Part 2: Finite Difference
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 4 Part 1: The Gradient of the Determinant       
+Lecture 4 Part 1: The Gradient of the Determinant        
 Lecture 4 Part 2: Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation
 {{< tdclose >}}{{< tdopen >}}
-Problem Set 1 due          
+Problem Set 1 due           
 Problem Set 2 out
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
 Lecture 5: Forward and Reverse Automatic Differentiation in a Nutshell
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 6 Part 1: Derivatives of Eigenproblems       
+Lecture 6 Part 1: Derivatives of Eigenproblems        
 Lecture 6 Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices
 {{< tdclose >}}{{< tdopen >}}
  
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 7 Part 1: Hessian Matrices (cont.)       
+Lecture 7 Part 1: Hessian Matrices (cont.)        
 Lecture 7 Part 2: Backpropagation through Back Substitution with a Backslash
 {{< tdclose >}}{{< tdopen >}}
 Problem Set 2 due
 {{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< tdopen >}}
-Lecture 8 Part 1: Hessian Matrices (cont.)       
+Lecture 8 Part 1: Hessian Matrices (cont.)        
 Lecture 8 Part 2: Differentiable Programming and Neural Differential Equations
 {{< tdclose >}}{{< tdopen >}}
  
