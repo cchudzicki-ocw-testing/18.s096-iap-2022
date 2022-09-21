@@ -28,7 +28,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Further Readings:
 
-- The terms "forward-mode" and "reverse-mode" differentiation are most prevalent in [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) (AD), which will cover later in this course. 
+- The terms "forward-mode" and "reverse-mode" differentiation are most prevalent in [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) (AD), which we will cover later in this course. 
 - You can find many, many articles online about [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) in neural networks. 
 - There are many other versions of this, e.g. in differential geometry the derivative linear operator (multiplying Jacobians and perturbations dx right-to-left) is called a [pushforward](https://en.wikipedia.org/wiki/Pushforward_(differential)), whereas multiplying a gradient row vector (covector) by a Jacobian left-to-right is called a [pullback](https://en.wikipedia.org/wiki/Pullback_(differential_geometry)). 
 - This video on "[Understanding Automatic Differentiation](https://www.youtube.com/watch?v=UqymrMG-Qi4)" by [Dr. Mohamed Tarek](https://github.com/mohamed82008) also starts with a similar left-to-right (reverse) vs right-to-left (forward) viewpoint and goes into how it translates to Julia code, and how you define custom chain-rule steps for Julia AD.
@@ -66,7 +66,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 ### Further Readings (Part 2):
 
 - There are many textbooks on [*Nonlinear Programming*](http://www.athenasc.com/nonlinbook.html) (by Bertsekas), including specialized books on [*Convex Optimization*](http://web.stanford.edu/~boyd/cvxbook/) (by Boyd and Vandenberghe), [*Introduction to Derivative-Free Optimization*](http://bookstore.siam.org/mp08/) (by Conn, Scheinberg, and Vicente), etcetera. 
-- A useful review of topology-optimization methods can be found in Sigmund and Maute's "[Topology Optimization Approaches](https://link.springer.com/article/10.1007/s00158-013-0978-6)". 
+- A useful review of topology-optimization methods can be found in Sigmund and Maute's "[Topology Optimization Approaches](https://link.springer.com/article/10.1007/s00158-013-0978-6)." 
 - See the [Notes on Adjoint Methods (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf) and [The Adjoint Method for Differentiating Complex Computations (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint-intro.pdf) from *18.335 Introduction to Numerical Methods*.
 
 ## Lecture 5
@@ -77,9 +77,9 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Further Readings:
 
-- Googling "automatic differentiation" will turn up many, many resources — this is a huge practical field these days. [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl) (described detail by "[Forward-Mode Automatic Differentiation in Julia](https://arxiv.org/abs/1607.07892)") uses [dual number](https://en.wikipedia.org/wiki/Dual_number) arithmetic similar to lecture to compute derivatives.
-- See also the article "[How to Differentiate with a Computer](http://www.ams.org/publicoutreach/feature-column/fc-2017-12)", or google "dual number automatic differentiation" for many other reviews. 
-- Implementing automatic reverse-mode AD is much more complicated than defining a new number type, unfortunately, and involves a lot more intricacies of compiler technology. See also Chris's blog post on [Engineering Trade-offs in Aautomatic Differentiation](https://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/), and Chris Rackauckas' discussion post on [AD limitations](https://discourse.julialang.org/t/open-discussion-on-the-state-of-differentiable-physics-in-julia/72900/2).
+- Googling "automatic differentiation" will turn up many, many resources—this is a huge practical field these days. [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl) (described in detail by "[Forward-Mode Automatic Differentiation in Julia](https://arxiv.org/abs/1607.07892)") uses [dual number](https://en.wikipedia.org/wiki/Dual_number) arithmetic similar to lecture to compute derivatives.
+- See also the article "[How to Differentiate with a Computer](http://www.ams.org/publicoutreach/feature-column/fc-2017-12)," or google "dual number automatic differentiation" for many other reviews. 
+- Implementing automatic reverse-mode AD is much more complicated than defining a new number type, unfortunately, and involves a lot more intricacies of compiler technology. See also Chris's blog post on [Engineering Trade-Offs in Automatic Differentiation](https://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/), and Chris Rackauckas's discussion post on [AD limitations](https://discourse.julialang.org/t/open-discussion-on-the-state-of-differentiable-physics-in-julia/72900/2).
 
 ## Lecture 6
 
@@ -91,14 +91,14 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 ### Further Readings (Part 1):
 
 - Computing derivatives on curved surfaces ("manifolds") is closely related to [tangent spaces](https://en.wikipedia.org/wiki/Tangent_space) in differential geometry. The effect of constraints can also be expressed in terms of [Lagrange multipliers](https://en.wikipedia.org/wiki/Lagrange_multiplier), which are useful in expressing optimization problems with constraints (see also Chapter 5 of [*Convex Optimization*](https://web.stanford.edu/~boyd/cvxbook/) by Boyd and Vandenberghe). 
-- In physics, first and second derivatives of eigenvalues and first derivatives of eigenvectors are often presented as part of ["time-independent" perturbation theory](https://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)#Time-independent_perturbation_theory) in quantum mechanics, or as the [Hellmann–Feynmann theorem](https://en.wikipedia.org/wiki/Hellmann%E2%80%93Feynman_theorem) for the case of dλ. 
-- The derivative of an eigenvector involves *all* of the other eigenvectors, but a much simpler "vector–Jacobian product" (involving only a single eigenvector and eigenvalue) can be obtained from left-to-right differentiation of a *scalar function* of an eigenvector, as reviewed in the [18.335 Notes on Adjoint Methods (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf).
+- In physics, first and second derivatives of eigenvalues and first derivatives of eigenvectors are often presented as part of ["time-independent" perturbation theory](https://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)#Time-independent_perturbation_theory) in quantum mechanics, or as the [Hellmann-Feynmann theorem](https://en.wikipedia.org/wiki/Hellmann%E2%80%93Feynman_theorem) for the case of dλ. 
+- The derivative of an eigenvector involves *all* of the other eigenvectors, but a much simpler "vector-Jacobian product" (involving only a single eigenvector and eigenvalue) can be obtained from left-to-right differentiation of a *scalar function* of an eigenvector, as reviewed in the [18.335 Notes on Adjoint Methods (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf).
 
 ### Further Readings (Part 2):
 
-- [Bilinear forms](https://en.wikipedia.org/wiki/Bilinear_form) are an important generalization of quadratic operations to arbitrary vector spaces, and we saw that the second derivative can be viewed as a [symmetric bilinear forms](https://en.wikipedia.org/wiki/Symmetric_bilinear_form). This is closely related to a [quadratic form](https://en.wikipedia.org/wiki/Quadratic_form), which is just what we get by plugging in the same vector twice, e.g. the f''(x)\[δx,δx\]/2 that appears in quadratic approximations for f(x+δx) is a quadratic form. 
+- [Bilinear forms](https://en.wikipedia.org/wiki/Bilinear_form) are an important generalization of quadratic operations to arbitrary vector spaces, and we saw that the second derivative can be viewed as a [symmetric bilinear form](https://en.wikipedia.org/wiki/Symmetric_bilinear_form). This is closely related to a [quadratic form](https://en.wikipedia.org/wiki/Quadratic_form), which is just what we get by plugging in the same vector twice, e.g. the f''(x)\[δx,δx\]/2 that appears in quadratic approximations for f(x+δx) is a quadratic form. 
 - The most familar multivariate version of f''(x) is the [Hessian matrix](https://en.wikipedia.org/wiki/Hessian_matrix). 
-- Khan academy has an introduction to [quadratic approximation](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/quadratic-approximations/a/quadratic-approximation).
+- Khan Academy has an introduction to [quadratic approximation](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/quadratic-approximations/a/quadratic-approximation).
 
 ## Lecture 7
 
@@ -130,7 +130,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 - See e.g. these Stanford University's notes on [Sequential Convex Programming (PDF)](https://web.stanford.edu/class/ee364b/lectures/seq_notes.pdf) using trust regions (sec. 2.2). 
 - See 18.335 notes on [Quasi-Newton Optimization: Origin of the BFGS Update (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/BFGS.pdf). 
 - The fact that a quadratic optimization problem in a sphere has [strong duality](https://en.wikipedia.org/wiki/Strong_duality) and hence is efficiently solvable as discussed in section 5.2.4 of the [*Convex Optimization*](https://web.stanford.edu/~boyd/cvxbook/) by Boyd and Vandenberghe. 
-- There has been a lot of work on [Hessian automatic computation](https://en.wikipedia.org/wiki/Hessian_automatic_differentiation), but for large-scale problems you can ultimately only compute Hessian–vector products efficiently in general, which are equivalent to a directional derivative of the gradient, and can be used e.g. for [Newton–Krylov methods](https://en.wikipedia.org/wiki/Newton%E2%80%93Krylov_method).
+- There has been a lot of work on [Hessian automatic computation](https://en.wikipedia.org/wiki/Hessian_automatic_differentiation), but for large-scale problems you can ultimately only compute Hessian-vector products efficiently in general, which are equivalent to a directional derivative of the gradient, and can be used e.g. for [Newton-Krylov methods](https://en.wikipedia.org/wiki/Newton%E2%80%93Krylov_method).
 
 ### Further Readings (Part 2):
 
