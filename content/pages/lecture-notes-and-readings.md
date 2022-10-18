@@ -38,7 +38,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 ### Lecture Notes
 
 - Part 1: {{% resource_link "e8eecb54-8a16-42ef-a24d-745cbf9451e3" "The Gradient of a Scalar Function of a Vector: Column Vector or Row Vector? (PDF)" %}}
-- Part 2: [Finite Difference (Jupyter notebook)](https://nbviewer.org/github/mitmath/matrixcalc/blob/main/Finite%20difference%20checks.ipynb) ({{% resource_link "d9e83bd3-6b99-44b8-98c4-7ad59ffb2f4c" "download \"Finite Difference\" zip file" %}})
+- Part 2: [Finite Difference (Jupyter notebook)](https://nbviewer.org/urls/ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2022/fd_checks.ipynb) ({{% resource_link "d9e83bd3-6b99-44b8-98c4-7ad59ffb2f4c" "download \"Finite Difference\" zip file" %}})
 
 ### Further Readings:
 
