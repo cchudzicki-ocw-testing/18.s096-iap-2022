@@ -85,7 +85,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1: [Derivatives of Eigenproblems (html)](https://rawcdn.githack.com/mitmath/matrixcalc/61a7b3e0cbebd0ccdc126fbe831d1398154e272b/symeig.jl.html) ({{% resource_link "4c0529a7-9649-4d68-9617-399fce0743dc" "download the zip file" %}}) ([Julia source](https://github.com/mitmath/matrixcalc/blob/main/symeig.jl)) ({{% resource_link "4b3b3a58-f350-4ec8-a621-49d634341796" "download Julia source zip file" %}})
+- Part 1: [Derivatives of Eigenproblems (html)](https://rawcdn.githack.com/mitmath/matrixcalc/61a7b3e0cbebd0ccdc126fbe831d1398154e272b/symeig.jl.html) ({{% resource_link "4c0529a7-9649-4d68-9617-399fce0743dc" "download the zip file" %}}) ([Julia source](https://github.com/mitmath/matrixcalc/blob/iap2022/symeig.jl)) ({{% resource_link "4b3b3a58-f350-4ec8-a621-49d634341796" "download Julia source zip file" %}})
 - Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices \[notes not available\]
 
 ### Further Readings (Part 1):
