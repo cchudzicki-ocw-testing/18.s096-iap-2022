@@ -15,4 +15,4 @@ uid: 0215a2ad-e1ed-486b-9f33-ffbff29820d5
 
 {{% resource_link "b3f174ea-a766-4322-96b8-02304122889e" "Problem Set 2 Solutions (PDF)" %}}
 
-[Problem Set 2 Solutions (Jupyter Notebook)](https://nbviewer.org/github/mitmath/matrixcalc/iap2022b/main/hw2sol.ipynb)
+[Problem Set 2 Solutions (Jupyter Notebook)](https://nbviewer.org/github/mitmath/matrixcalc/iap2022/hw2sol.ipynb)
