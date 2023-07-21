@@ -53,7 +53,7 @@ uid: d37b3aa2-ff0c-4286-b7ce-b7e4f3fbb2ea
 
 ### Lecture Notes
 
-- Part 1: [The Gradient of the Determinant (html)](https://rawcdn.githack.com/mitmath/matrixcalc/c97512521a9ff63802454ee258f1759c45f7d8b6/determinant_and_inverse.html) ({{% resource_link "5153711d-d113-46cb-8df6-e7e20a7f78a2" "download the zip file" %}}) ([Julia source](https://github.com/mitmath/matrixcalc/blob/main/determinant_and_inverse.jl)) ({{% resource_link "6cd714af-b338-40c7-a3a0-7d570503a662" "download Julia source zip file" %}})
+- Part 1: [The Gradient of the Determinant (html)](https://rawcdn.githack.com/mitmath/matrixcalc/c97512521a9ff63802454ee258f1759c45f7d8b6/determinant_and_inverse.html) ({{% resource_link "5153711d-d113-46cb-8df6-e7e20a7f78a2" "download the zip file" %}}) ([Julia source](https://github.com/mitmath/matrixcalc/blob/iap2022/symeig.jl)) ({{% resource_link "6cd714af-b338-40c7-a3a0-7d570503a662" "download Julia source zip file" %}})
 - Part 2: {{% resource_link "ed4afe03-6d76-495e-872b-cf5c194f3d03" "Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation (PDF)" %}}
 
 ### Further Readings (Part 1):
